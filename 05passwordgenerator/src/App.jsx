@@ -61,12 +61,12 @@ function App() {
           className="outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0"
         >
           Copy
+        </button>
           {copied && (
             <div className="fixed top-5 right-165 bg-green-500 text-white text-center px-4 py-2 rounded-4xl shadow-lg transition-opacity duration-300 z-50">
               <span className="text-sm text-white bg-white rounded-full text-center">✔</span> Password copied!
             </div>
           )}
-        </button>
       </div>
 
       <div className="flex justify-evenly justify- text-sm gap-x-2">
